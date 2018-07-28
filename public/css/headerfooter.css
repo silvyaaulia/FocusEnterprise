@@ -65,19 +65,17 @@ nav{
   background-color: rgb(200, 75, 135);
 }
 
-    form{
-        background-color: rgb(244, 181, 208);
-        color: black;
-        font-family: 'Berlin Sans FB', sans-serif;
-        inline
-      }
+form{
+  background-color: rgb(244, 181, 208);
+  color: black;
+  font-family: 'Berlin Sans FB', sans-serif;
+}
 
-      footer{
-        background-color: rgb(34, 34, 34);
-        list-style-type: none;
-
-        color: white;
-        font-size: 12pt;
-        margin: 0;
-        padding: 20px;
-      }
+footer{
+  background-color: rgb(180,180,180);
+  list-style-type: none;
+  color: white;
+  font-size: 12pt;
+  margin: 0;
+  padding: 20px;
+}
