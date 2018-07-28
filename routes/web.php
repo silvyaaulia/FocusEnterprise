@@ -31,12 +31,7 @@ Route::get('/paket', function () {
 });
 
 
-/*EVENTS
-Route::get('/', function () {
-    return view('event-list');
+//EVENTS
+Route::get('/events', function () {
+    return view('blog/events');
 });
-
-Route::get('/', function () {
-    return view('event-day');
-});
-*/

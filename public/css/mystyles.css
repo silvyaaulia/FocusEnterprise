@@ -7,7 +7,7 @@ img {vertical-align: middle;}
 .slideshow-container {
   max-width: 100%;
   position: relative;
-  margin: auto;
+  margin: 20px auto auto auto;
 }
 
 /* Caption text */
@@ -104,20 +104,20 @@ img {vertical-align: middle;}
     height: 300px;
     background-repeat: no-repeat;
     color: white;
-    text-align:center;
-    }
+    padding-top: 75px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 #pagetitle{
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Back to Black Demo', serif;
   font-size: 30pt;
-  position: relative;
-  top: 70px;
+  text-align: center;
 }
 
 #pagetitle-addr{
   font-family: 'Berlin Sans FB', sans-serif;
-  position: relative;
-  top: 200px;
-  font-size: 16pt;
+  font-size: 14pt;
+  text-align: center;
 }
 
 #contenttitle{
@@ -145,15 +145,7 @@ ul{
   width:1200px;
   display: block;
 }
-/*.gmap_canvas {
-  width:100%;
-}*/
 
-/*paragraf umum
-p{
-    font-family: 'Berlin Sans FB', sans-serif;
-    font-size:12;
-}*/
 .img-pcentre{
   display: block;
   margin: 30px auto;
@@ -213,4 +205,38 @@ table, td, th {
 .detailpost-info{
     background-color: rgb(244, 181, 208);
   padding: 20px;
+}
+
+.events{
+  padding: 40px 0;
+}
+
+.post-short{
+  padding: 0 200px;
+  text-align: justify;
+}
+
+#posttitle-short{
+  font-size:20pt;
+}
+
+.img-postshort{
+  float: left;
+  margin: 10px ;
+  width: 30%;
+}
+
+.pjustify{
+  text-align: justify;
+  display: block;
+  margin: 10px auto;
+  padding-bottom: 30px;
+  border-bottom-style: solid;
+  border-color: rgb(225, 225, 225);
+  border-width: 1pt;
+}
+
+#more{
+  color: orange;
+  display: inline;
 }
