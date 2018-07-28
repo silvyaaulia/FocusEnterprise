@@ -54,19 +54,21 @@
     @yield('content')
 
     <footer>
-      <div class="">
-        <span> &copy copyright2018;</span>
 
-        <img src="/images/logo-facebook.png" >
-        <img src="/images/logo-instagram.png" >
-        <img src="/images/logo-linkedin.png" >
-        <img src="/images/logo-whatsapp.png" >
+        <span id="copyright"> &copy copyright2018</span>
 
-        <span >
-        phone: 0821-xxxx-xxxx
+        <div class="medsos">
+          <img src="/images/logo-facebook.png" href="#" height="35px" weight="35px">
+          <img src="/images/logo-instagram.png" href="#" height="35px" weight="35px">
+          <img src="/images/logo-linkedin.png" href="#" height="35px" weight="35px">
+          <img src="/images/logo-whatsapp.png" href="#" height="35px" weight="35px">
+        </div>
+
+        <span>
+        phone: 0821-xxxx-xxxx <br>
         email: ini@email.com
         </span>
-      </div>
+
 
 
     </footer>

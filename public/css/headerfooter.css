@@ -65,17 +65,26 @@ nav{
   background-color: rgb(200, 75, 135);
 }
 
+/*subheader page event - for search event based on date and time
 form{
   background-color: rgb(244, 181, 208);
   color: black;
   font-family: 'Berlin Sans FB', sans-serif;
 }
+*/
 
 footer{
   background-color: rgb(180,180,180);
   list-style-type: none;
-  color: white;
+  color: black;
   font-size: 12pt;
   margin: 0;
   padding: 20px;
+  column-count: 3;
+  text-align: center;
+}
+
+#copyright{
+  font-size: 12pt;
+  margin: 10px 0;
 }
