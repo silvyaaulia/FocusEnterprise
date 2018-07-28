@@ -125,7 +125,7 @@ img {vertical-align: middle;}
   padding:20px;
 }
 
-.contactus{
+.contactus, .paket{
   font-family: 'Berlin Sans FB', sans-serif;
   font-size:12;
 }
@@ -157,12 +157,21 @@ p{
 .img-pcentre{
   display: block;
   margin: 30px auto;
-  width: 60%;
-}
+  }
 
 .pcentre{
   text-align: center;
   display: block;
-  margin: 30px auto 50px auto;
+  margin: 30px auto;
   width: 60%;
+}
+
+/*tabel paket*/
+table {
+    border-collapse: collapse;
+    margin: 50px auto 50px auto;
+}
+
+table, td, th {
+    border: 1px solid black;
 }
