@@ -121,8 +121,8 @@ img {vertical-align: middle;}
 }
 
 #contenttitle{
-  font-size:35pt;
-  padding:30px;
+  font-size:30pt;
+  padding:20px;
 }
 
 .contactus{
@@ -154,3 +154,15 @@ p{
     font-family: 'Berlin Sans FB', sans-serif;
     font-size:12;
 }*/
+.img-pcentre{
+  display: block;
+  margin: 30px auto;
+  width: 60%;
+}
+
+.pcentre{
+  text-align: center;
+  display: block;
+  margin: 30px auto 50px auto;
+  width: 60%;
+}
