@@ -94,3 +94,84 @@ img {vertical-align: middle;}
   background-color: white;
   padding: 50px 180px 80px 180px;
 }
+
+
+
+/*Contact Us*/
+.pagetitle-bg{
+    background-image: url("/images/pic_judulhalaman.jpg");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    color: white;
+    text-align:center;
+    }
+#pagetitle{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30pt;
+  position: relative;
+  top: 70px;
+}
+
+#pagetitle-addr{
+  font-family: 'Berlin Sans FB', sans-serif;
+  position: relative;
+  top: 200px;
+  font-size: 16pt;
+}
+
+#contenttitle{
+  font-size:30pt;
+  padding:20px;
+}
+
+.contactus, .paket{
+  font-family: 'Berlin Sans FB', sans-serif;
+  font-size:12;
+}
+
+ul{
+  list-style-type:none;
+  text-indent: 100px;
+  text-align: left;
+
+}
+
+/*maps*/
+.mapouter{
+  text-align:center;
+  margin: 50px auto;
+  height:500px;
+  width:1200px;
+  display: block;
+}
+/*.gmap_canvas {
+  width:100%;
+}*/
+
+/*paragraf umum
+p{
+    font-family: 'Berlin Sans FB', sans-serif;
+    font-size:12;
+}*/
+.img-pcentre{
+  display: block;
+  margin: 30px auto;
+  }
+
+.pcentre{
+  text-align: center;
+  display: block;
+  margin: 30px auto;
+  width: 60%;
+}
+
+/*tabel paket*/
+table {
+    border-collapse: collapse;
+    margin: 50px auto 50px auto;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
