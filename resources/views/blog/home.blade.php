@@ -63,7 +63,7 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 </script>
 
@@ -80,7 +80,26 @@ function showSlides() {
   <p id="judulhome">Our Service</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+  <div class="ourservices">
+    <span id="ourservices-btn" href="#">
+      <img id="ourservices-img" src="/images/logo-facebook.png" alt="" height="20px" width="20px">
+      <span id="ourservices-title" href="#">Gedung </span>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+     </span>
+     <span id="ourservices-btn" href="#">
+       <img id="ourservices-img" src="/images/logo-facebook.png" alt="" height="20px" width="20px">
+       <span id="ourservices-title" href="#">Gedung </span>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      </span>
+      <span id="ourservices-btn" href="#">
+        <span id="ourservices-title" href="#">
+        <img id="ourservices-img" src="/images/logo-facebook.png" alt="" height="20px" width="20px">Gedung </span> <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+       </span>
+  </div>
 </div>
+
+
 
 
 @endsection

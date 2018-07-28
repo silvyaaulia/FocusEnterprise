@@ -7,19 +7,24 @@ img {vertical-align: middle;}
 .slideshow-container {
   max-width: 100%;
   position: relative;
-  margin: auto;
+  margin: 20px auto auto auto;
 }
 
 /* Caption text */
 .text {
   color: black;
   font-size: 15px;
-  padding: 20px;
+  padding: 0px;
   position: relative;
   bottom: 8px;
   width: 100%;
   text-align: center;
 }
+
+.prev, .next{
+    cursor:pointer
+}
+
 
 /* Number text (1/3 etc) */
 .numbertext {
@@ -37,7 +42,7 @@ img {vertical-align: middle;}
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
-  display: inline-flex;
+  display: inline-block;
   transition: background-color 1s ease;
 }
 
@@ -95,7 +100,33 @@ img {vertical-align: middle;}
   padding: 50px 180px 80px 180px;
 }
 
+.ourservices{
+  margin-left: auto;
+  margin-right: auto;
+}
 
+#ourservices-btn{
+  background-color: rgb(176, 75, 135);
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  height: 300px;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+#ourservices-title{
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20pt;
+}
+
+#ourservices-img {
+    float: left;
+    margin-right: 20px;
+}
 
 /*Contact Us*/
 .pagetitle-bg{
@@ -104,20 +135,20 @@ img {vertical-align: middle;}
     height: 300px;
     background-repeat: no-repeat;
     color: white;
-    text-align:center;
-    }
+    padding-top: 75px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 #pagetitle{
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Back to Black Demo', serif;
   font-size: 30pt;
-  position: relative;
-  top: 70px;
+  text-align: center;
 }
 
 #pagetitle-addr{
   font-family: 'Berlin Sans FB', sans-serif;
-  position: relative;
-  top: 200px;
-  font-size: 16pt;
+  font-size: 14pt;
+  text-align: center;
 }
 
 #contenttitle{
@@ -145,15 +176,7 @@ ul{
   width:1200px;
   display: block;
 }
-/*.gmap_canvas {
-  width:100%;
-}*/
 
-/*paragraf umum
-p{
-    font-family: 'Berlin Sans FB', sans-serif;
-    font-size:12;
-}*/
 .img-pcentre{
   display: block;
   margin: 30px auto;
@@ -174,4 +197,77 @@ table {
 
 table, td, th {
     border: 1px solid black;
+}
+
+.post{
+  padding: 30px 150px;
+  text-align: justify;
+}
+
+#allevents{
+  color: orange;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#posttitle{
+  font-size:30pt;
+}
+
+.detailpost{
+  background-color: white;
+  padding: 30px 0;
+}
+
+#detailpost-btn{
+  background-color: rgb(176, 75, 135);
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+#detailpost-btn:hover{
+  background-color: rgb(244, 100, 208);
+}
+
+.detailpost-info{
+    background-color: rgb(244, 181, 208);
+  padding: 20px;
+}
+
+.events{
+  padding: 40px 0;
+}
+
+.post-short{
+  padding: 0 200px;
+  text-align: justify;
+}
+
+#posttitle-short{
+  font-size:20pt;
+}
+
+.img-postshort{
+  float: left;
+  margin: 10px ;
+  width: 30%;
+}
+
+.pjustify{
+  text-align: justify;
+  display: block;
+  margin: 10px auto;
+  padding-bottom: 30px;
+  border-bottom-style: solid;
+  border-color: rgb(225, 225, 225);
+  border-width: 1pt;
+}
+
+#more{
+  color: orange;
+  display: inline;
 }
