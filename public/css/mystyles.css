@@ -73,6 +73,19 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
+@font-face {
+font-family: "Back to Black Demo";
+src: url("/fonts/Back to Black Demo.ttf");
+}
+
+/*
+h1 {
+font-family: 'Harabara Bold', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+}
+*/
+
 
 /* Home About us */
 .home-aboutus{
@@ -84,7 +97,7 @@ img {vertical-align: middle;}
 }
 #judulhome{
   text-align: center;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Back to Black Demo', serif;
   font-size: 30pt;
 }
 #image-floatleft {
@@ -101,7 +114,7 @@ img {vertical-align: middle;}
 }
 
 .ourservices{
-  margin-left: auto;
+  margin-left: 60px;
   margin-right: auto;
 }
 
@@ -112,20 +125,22 @@ img {vertical-align: middle;}
   color: black;
   text-decoration: none;
   height: 300px;
-  width: 200px;
+  width: 250px;
   margin-bottom: 10px;
   margin-right: 10px;
+  text-align: center;
 }
 
 #ourservices-title{
   text-align: center;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Back to Black Demo', serif;
   font-size: 20pt;
+
 }
 
 #ourservices-img {
     float: left;
-    margin-right: 20px;
+    margin-left: 30px;
 }
 
 /*Contact Us*/

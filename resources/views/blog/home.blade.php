@@ -72,7 +72,7 @@ function showSlides() {
 <br>
 <div class="home-aboutus">
   <img id="image-floatleft" src="/images/pic_aboutus1.jpg" alt="" height="300px" width="300px">
-  <p id="judulhome">About Us edit</p>
+  <p id="judulhome">About Us</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 
@@ -82,18 +82,18 @@ function showSlides() {
 
   <div class="ourservices">
     <span id="ourservices-btn" href="#">
-      <img id="ourservices-img" src="/images/logo-facebook.png" alt="" height="20px" width="20px">
-      <span id="ourservices-title" href="#">Gedung </span>
+      <span id="ourservices-title" href="#">
+      <img id="ourservices-img" src="/images/logo-facebook.png" alt="" height="40px" width="40px"> Gedung </span> <br>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
      </span>
      <span id="ourservices-btn" href="#">
-       <img id="ourservices-img" src="/images/logo-facebook.png" alt="" height="20px" width="20px">
-       <span id="ourservices-title" href="#">Gedung </span>
+       <span id="ourservices-title" href="#">
+       <img id="ourservices-img" src="/images/logo-facebook.png" alt="" height="40px" width="40px"> Gedung </span> <br>
        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
       </span>
       <span id="ourservices-btn" href="#">
         <span id="ourservices-title" href="#">
-        <img id="ourservices-img" src="/images/logo-facebook.png" alt="" height="20px" width="20px">Gedung </span> <br>
+        <img id="ourservices-img" src="/images/logo-facebook.png" alt="" height="40px" width="40px"> Gedung </span> <br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
        </span>
   </div>
