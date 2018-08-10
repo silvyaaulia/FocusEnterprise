@@ -5,6 +5,10 @@ Route::get('/home', function () {
     return view('blog/home');
 });
 
+Route::get('/homeb', function () {
+    return view('blog/homeb');
+});
+
 //ABOUT US
 Route::get('/contactus', function () {
     return view('blog/contactus');

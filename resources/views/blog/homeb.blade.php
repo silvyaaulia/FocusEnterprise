@@ -1,5 +1,8 @@
-@extends('layouts.master')
+@extends('layouts.masterb')
 
+@section('title')
+Focuse Entreprise
+@endsection
 
 @section('content')
 
