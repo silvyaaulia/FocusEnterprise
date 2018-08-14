@@ -7,7 +7,7 @@ Contact Us
 @section('pagetitle')
 
 <div class="row">
-      <div class="col-sm-12">
+     <div class="col-sm-12">
         <div class="pagetitle-bg">
       <p id="pagetitle">Contact Us</p>
       <p id="pagetitle-addr">
