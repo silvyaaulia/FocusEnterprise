@@ -9,7 +9,7 @@
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext"></div>
-    <img src="/images/pic1.jpg" style="width:100%">
+    <img src="/images/pic1.jpg" style="width:75% height:100px">
     <div class="text">Caption One</div>
   </div>
 
