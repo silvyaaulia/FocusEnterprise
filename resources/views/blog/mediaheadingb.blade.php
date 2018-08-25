@@ -6,7 +6,7 @@ Media Heading
 
 
 @section('pagetitle')
-<div class="row">
+<div class="row"> 
       <div class="col-sm-12">
         <div class="pagetitle-bg">
       <p id="pagetitle">Media Heading</p>

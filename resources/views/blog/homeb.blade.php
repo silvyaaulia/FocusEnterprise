@@ -1,4 +1,4 @@
-@extends('layouts.masterb')
+@extends('layouts.masternew')
 
 @section('title')
 Focuse Entreprise
@@ -58,7 +58,11 @@ function showSlides() {
 <div id="slider">
 
 <figure>
-<img src="/images/pic1.jpg" style="width:75% height:100px">
+<div class="slider-content">
+  <img src="/images/pic1.jpg" style="width:75% height:100px">
+  Halo ini caption di image slider
+</div>
+
 <img src="/images/pic3.jpg" style="width:75% height:100px">
 <img src="/images/pic1.jpg" style="width:75% height:100px">
 <img src="/images/pic3.jpg" style="width:75% height:100px">
