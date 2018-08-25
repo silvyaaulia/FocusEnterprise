@@ -17,58 +17,64 @@
     <title>@yield('title')</title>
 
     <!-- Custom styles for this template -->
-    <link href="/css/mystyles.css" rel="stylesheet">
+    <link href="/css/mystylesc.css" rel="stylesheet">
 
   </head>
 
-
   <body>
-    <nav class="navbar navbar-expand-sm navbar-black">
-      <div class="row">
-        <div class="col-sm-1">
-        </div>
 
-        <div class="col-sm-2">
+    <div class="row">
+    <nav class="navbar">
+      <div class="col-sm-1">
+      </div>
+
+      <div class="col-sm-2">
+        <div class="logo">
           <div class="navbar-brand">
             <img  src="/images/logo-header.png" alt="Logo Focus Entreprise"  height="80px" width="220px" href="/home">
           </div>
         </div>
+      </div>
 
-        <div class="col-sm-4">
-            <div class="container-fluid">
-              <ul class="d-flex navbar-nav">
-                <li class="dropdown"><a href="#">Profil</a></li>
+      <div class="col-sm-6">
+        <div class="container-fluid">
+          <ul class="d-flex navbar-nav">
+            <li class="dropdown"><a href="#">Profil</a></li>
 
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Paket 1<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Paket A</a></li>
-                    <li><a href="#">Paket B</a></li>
-                    <li><a href="#">Paket C</a></li>
-                    <li><a href="#">Paket D</a></li>
-                  </ul>
-                </li>
+            <li class="dropdown"><a data-toggle="dropdown" href="#">Paket 1</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Paket A</a></li>
+                <li><a href="#">Paket B</a></li>
+                <li><a href="#">Paket C</a></li>
+                <li><a href="#">Paket D</a></li>
+              </ul>
+            </li>
 
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Paket 2<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Paket AA</a></li>
-                    <li><a href="#">Paket BB</a></li>
-                    <li><a href="#">Paket CC</a></li>
-                    <li><a href="#">Paket DD</a></li>
-                  </ul>
-                </li>
+            <li class="dropdown"><a data-toggle="dropdown" href="#">Paket 2</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Paket AA</a></li>
+                <li><a href="#">Paket BB</a></li>
+                <li><a href="#">Paket CC</a></li>
+                <li><a href="#">Paket DD</a></li>
+              </ul>
+            </li>
 
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                  </ul>
-                </li>
+            <li class="dropdown"><a data-toggle="dropdown" href="#">About Us</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </li>
+
           </ul>
         </div>
-        </div>
-        </div>
+      </div>
 
+      <div class="col-sm-1">
+      </div>
       </nav>
+    </div>
+
 <br>
 
     @yield('subheader')

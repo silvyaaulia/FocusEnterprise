@@ -47,4 +47,5 @@ Post
   </div>
 </div>
 </div>
+
 @endsection

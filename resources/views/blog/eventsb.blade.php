@@ -1,4 +1,4 @@
-@extends('layouts\masterb')
+@extends('layouts\masternew')
 
 @section('title')
 Event

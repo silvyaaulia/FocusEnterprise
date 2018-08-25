@@ -1,0 +1,313 @@
+/* ----On smaller screens, decrease text size----*/
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/*----customize font----*/
+@font-face {
+font-family: "Back to Black Demo";
+src: url("/fonts/Back to Black Demo.ttf");
+}
+
+/*--------Header--------*/
+.headernav{
+  background-color: #b04b87;
+}
+.navbar-main{
+align-self: center;
+}
+#myNavbar{
+  align-items: center;
+  margin: 10px 0;
+}
+#headermenu{
+  color: #282728;
+  font-size: 12pt;
+}
+
+/*--------Footer--------*/
+.footer-container{
+  background-color:#f4b5d0;
+  align-self: center;
+}
+
+/*--------default for page--------*/
+.pagetitle-container{
+  background-image: url("/images/pic_judulhalaman.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  text-align:center;
+}
+.pagetitle{
+  font-family: 'Back to Black Demo', serif;
+  font-size: 30pt;
+  text-shadow: 0px 8px 4px 0px rgba(0,0,0,0.2);
+  margin: 60px auto 30px auto;
+}
+.title{
+  font-family: 'Berlin Sans FB', sans-serif;
+  font-size: 24pt;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 30px auto;
+}
+.space-outer{
+  padding: 50px 10%;
+}
+.space-updown{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.dateandtime{
+  margin-bottom: 10px;
+}
+.center{
+  text-align: center;
+}
+#font-blacktd{
+  font-family: 'Back to Black Demo', serif;
+  font-size: 40px;
+}
+ul, li{
+  list-style-type:none;
+  display: inline-block;
+  margin: auto;
+}
+.breadcrumb{
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+
+/*--------HOMEPAGE--------*/
+/*--------slider------*/
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: 20px auto;
+}
+.img-slider{
+  height: 700px;
+  width: 100%;
+}
+.slider-content{
+  display: inline-flex;
+}
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+/*--------aboutus------*/
+.aboutus{
+  text-align: justify;
+  font-family: 'Berlin Sans FB', sans-serif;
+  font-size: 12pt;
+  background-color: #f4b5d0;
+  padding: 20px 10px 20px 10px;
+}
+.aboutus-container{
+  background-color: #f4b5d0;
+}
+.img-aboutus{
+  margin: 20px auto;
+  max-width: 80%;
+  align-items: center;
+}
+#judulhome{
+  text-align: center;
+  font-family: 'Back to Black Demo', serif;
+  font-size: 30pt;
+  margin: 30px auto;
+}
+/*--------ourservices------*/
+.ourservices{
+  text-align: justify;
+  font-family: 'Berlin Sans FB', sans-serif;
+  font-size: 12pt;
+  background-color: white;
+  padding: 50px 180px 80px 180px;
+  margin: auto;
+
+}
+.ourservices-container {
+  max-width: 800px;
+  position: relative;
+  margin: 20px auto;
+  padding: 20px auto;
+}
+
+
+#ourservices-btn{
+  background-color: rgb(176, 75, 135);
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  height: 300px;
+  width: 250px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+#ourservices-title{
+  text-align: center;
+  font-family: 'Back to Black Demo', serif;
+  font-size: 20pt;
+}
+#ourservices-img {
+    float: left;
+    margin-left: 30px;
+}
+
+/*--------PACKAGE--------*/
+.package-title{
+  font-size: 20pt;
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+.package-content{
+  padding: 10px 0x;
+  text-align: justify;
+  font-size: 12pt;
+  text-indent: 50px;
+  margin-bottom: 20px;
+}
+.img-package{
+  margin: 20px auto;
+  max-width: 60%;
+  align-items: center;
+}
+.img-download{
+  display: block;
+  margin: 30px auto;
+}
+/*----package table----*/
+table, td, th {
+    border: 1px solid black;
+}
+.table-header{
+  background-color: #f4b5d0;
+  font-size: 13pt;
+}
+
+
+/*--------MEDIA HEADING--------*/
+.img-mediaheading{
+  display: block;
+  max-width: 60%;
+  height: auto;
+  margin: 30px auto;
+}
+.mediaheading-title{
+  font-size: 20pt;
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+.mediaheading-content{
+  margin: 10px auto 50px auto;
+  padding: 10px 100px;
+  text-align: justify;
+  font-size: 12pt;
+  text-indent: 50px;
+}
+
+/*--------POST--------*/
+.post{
+  padding: 30px 50px;
+  text-align: justify;
+}
+.allevents{
+  color: orange;
+  text-decoration: none;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.detailpost{
+  background-color: white;
+  margin-top: 20px;
+  padding: 0 10px;
+  margin: 5px;
+}
+#detailpost-btn{
+  background-color: rgb(176, 75, 135);
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+#detailpost-btn:hover{
+  background-color: rgb(244, 100, 208);
+}
+.detailpost-info{
+  background-color: rgb(244, 181, 208);
+  padding: 20px;
+  margin: 5px;
+}
+.img-post{
+  margin: 20px auto;
+  max-width: 60%;
+  align-items: center;
+}
+
+/*--------EVENTS--------*/
+.events{
+  padding: 40px 0;
+}
+.shortpost{
+  margin: auto;
+  padding: 30px 0;
+  border-top: 1px solid #f4b5d0;
+}
+.shortpost-title{
+  font-size:18pt;
+}
+.shortpost-content{
+  text-align: justify;
+}
+.datebox{
+   border: 1px solid #f4b5d0;
+   padding: 5px;
+   background-color: #b04b87;
+   color: #e0e0e0;
+   width: 50px;
+   text-align: center;
+   line;
+ }
+ .img-event{
+   margin: auto;
+ }
+ #more{
+   color: orange;
+   display: inline;
+ }
+
+/*--------CONTACT US--------*/
+.contactus-title{
+  font-size:30pt;
+  padding:0px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/*----map----*/
+.mapouter{
+  text-align:center;
+  height:500px;
+  width:100%;
+  margin: 30px auto;
+}
+.gmap_canvas{
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:100%;
+}
