@@ -65,26 +65,49 @@ Focuse Entreprise
     <div id="judulhome">Our Service</div>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </div>
-  <div class=" row ourservices-container">
-    <div class="col-sm-8">
-      <span id="ourservices-btn" href="#">
-        <span id="ourservices-title" href="#">
-        <img id="ourservices-img" src="/images/logo-facebook.png" alt="" height="40px" width="40px"> Gedung </span> <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-       </span>
-       <span id="ourservices-btn" href="#">
-         <span id="ourservices-title" href="#">
-         <img id="ourservices-img" src="/images/logo-facebook.png" alt="" height="40px" width="40px"> Gedung </span> <br>
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        </span>
-        <span id="ourservices-btn" href="#">
-          <span id="ourservices-title" href="#">
-          <img id="ourservices-img" src="/images/logo-facebook.png" alt="" height="40px" width="40px"> Gedung </span> <br>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-         </span>
-    </div>
-</div>
+  <div class="row services-container">
+    <div class="">
+      <!-- Media Heading 1-->
+      <div class="col-sm-4 services-box">
+          <a>
+            <div class="row services-title">
+              <img class="services-icon" src="/images/logo-instagram.png" alt="">
+              Dekorasi
+            </div>
+            <div class="row services-content">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </div>
+          </a>
+      </div>
+      <!-- Media Heading 2-->
+      <div class="col-sm-4 services-box">
+          <a>
+            <div class="row services-title">
+              <img class="services-icon" src="/images/logo-instagram.png" alt="">
+              Dekorasi
+            </div>
+            <div class="row services-content">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </div>
+          </a>
+      </div>
+      <!-- Media Heading 3-->
+      <div class="col-sm-4 services-box">
+          <a>
+            <div class="row services-title">
+              <img class="services-icon" src="/images/logo-instagram.png" alt="">
+              Dekorasi
+            </div>
+            <div class="row services-content">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </div>
+          </a>
+      </div>
 
+    </div>
+
+
+  </div>
 
 
 </div>

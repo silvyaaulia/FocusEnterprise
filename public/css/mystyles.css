@@ -135,35 +135,53 @@ ul, li{
   margin: auto;
 
 }
-.ourservices-container {
-  max-width: 800px;
+.services-container {
   position: relative;
-  margin: 20px auto;
-  padding: 20px auto;
-}
-
-
-#ourservices-btn{
-  background-color: rgb(176, 75, 135);
+  margin: 30px auto;
   display: inline-block;
-  padding: 10px;
-  color: black;
-  text-decoration: none;
-  height: 300px;
-  width: 250px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  text-align: center;
+  align-items: center;
 }
-#ourservices-title{
-  text-align: center;
+
+.services-box{
+  background-color: #b04b87;
+  margin: 5px;
+  padding: 20px;
+  height: 250px;
+  width: 200px;
+  display: inline-block;
+  color: #191919;
+  align-items: center;
+}
+
+.services-box:hover{
+  background-color: #db72b0;
+}
+
+
+.services-title{
   font-family: 'Back to Black Demo', serif;
-  font-size: 20pt;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: left;
+  align-items: center;
+  margin-left: 5px;
 }
-#ourservices-img {
-    float: left;
-    margin-left: 30px;
+.services-icon{
+  height: 30px;
+  width: auto;
+  text-decoration: none;
+  position: relative;
+  margin-left: 5px;
 }
+
+.services-content{
+  text-align: justify;
+  font-size: 10pt;
+  margin: 10px 5px;
+  text-decoration: none;
+}
+
+
 
 /*--------PACKAGE--------*/
 .package-title{
