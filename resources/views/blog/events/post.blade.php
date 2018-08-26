@@ -1,4 +1,4 @@
-@extends('layouts\masternew')
+@extends('layouts\master')
 
 @section('title')
 Post
@@ -25,11 +25,6 @@ Post
     </div>
   </div>
 
-  <div class="row detailpost">
-      <a id="detailpost-btn" href="#">Google Maps</a>
-      <a id="detailpost-btn" href="#">Google Calender</a>
-      <a id="detailpost-btn" href="#">Ical Export</a>
-  </div>
 
   <div class="row detailpost-info">
     <div class="col-sm-4">

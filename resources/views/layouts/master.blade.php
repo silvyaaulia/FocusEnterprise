@@ -2,50 +2,75 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>@yield('title')</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta htttp-equiv="X-UA-Compatible" content="ie-edge">
 
-    <!-- Custom styles for this template -->
-      <link href="/css/headerfooter.css" rel="stylesheet">
-      <link href="/css/mystyles.css" rel="stylesheet">
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <div class="logo">
-          <img  src="/images/logo-header.png" alt="Logo Focus Entreprise"  height="80px" width="220px" href="/home">
-        </div>
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/fonts.css">
 
-        <div class="profil">
-          <button class="dropbtn">Profil</button>
-        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="/js/bootstrapjquery.js"></script>
+        <script src="/js/proper.js"></script>
+        <script src="/js/bootstrap.js"></script>
 
-        <div class="paket1">
-          <button class="dropbtn">Paket 1</button>
-          <div class="dropdown-content" id="paket1">
-            <a href="#">Paket A</a>
-            <a href="#">Paket B</a>
-            <a href="#">Paket C</a>
-          </div>
-        </div>
+        <title>@yield('title')</title>
 
-        <div class="paket2">
-          <button class="dropbtn">Paket 2</button>
-          <div class="dropdown-content" id="paket2">
-            <a href="#">Paket AA</a>
-            <a href="#">Paket BB</a>
-            <a href="#">Paket CC</a>
-          </div>
-        </div>
+        <!-- Custom styles for this template-->
+        <link href="/css/mystyles.css" rel="stylesheet">
+    <head>
 
-        <div class="aboutus">
-          <button class="dropbtn">About Us</button>
-          <div class="dropdown-content">
-            <a href="#">Contact Us</a>
-            <a href="#">Events</a>
-          </div>
-      </nav>
-    </header>
+    <body>
+    <div class="headernav">
+        <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="container">
+            <div class="container">
+                <div class="navbar-header navbar-main">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <img src="/images/logo-header.png" alt="Logo Focus Entreprise" style="width:auto;height:80px;">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a id="headermenu" href="/">Profil</a></li>
+                        <li class="dropdown">
+                            <a id="headermenu" href="#" data-toggle="dropdown" class="dropdown-toggle">Paket 1</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/paket">Paket A</a></li>
+                                <li><a href="/paket">Paket B</a></li>
+                                <li><a href="/paket">Paket C</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a id="headermenu" href="#" data-toggle="dropdown" class="dropdown-toggle">Paket 2</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/paket">Paket AA</a></li>
+                                <li><a href="/paket">Paket BB</a></li>
+                                <li><a href="/paket">Paket CC</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a id="headermenu" href="#" data-toggle="dropdown" class="dropdown-toggle">About Us</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/events">Events</a></li>
+                                <li><a href="/contactus">Contact Us</a></li>
+                            </ul>
+                  </div><!-- /.navbar-collapse -->
+            </div>
+            </div>
+        </nav>
+
+    </div>
+
 
     @yield('subheader')
 
@@ -53,24 +78,32 @@
 
     @yield('content')
 
+
     <footer>
-
-        <span id="copyright"> &copy copyright2018</span>
-
-        <div class="medsos">
-          <img src="/images/logo-facebook.png" href="#" height="35px" weight="35px">
-          <img src="/images/logo-instagram.png" href="#" height="35px" weight="35px">
-          <img src="/images/logo-linkedin.png" href="#" height="35px" weight="35px">
-          <img src="/images/logo-whatsapp.png" href="#" height="35px" weight="35px">
+      <div class="row footer-container">
+        <div class="col-sm-4 center" style="margin: 20px auto;">
+          <div class="subfooter"> &copy; Copyright 2018 Focus Enterprise</div>
         </div>
 
-        <span>
-        phone: 0821-xxxx-xxxx <br>
-        email: ini@email.com
-        </span>
+        <div class="col-sm-4 center"  style="margin: 15px auto;">
+          <div>
+            <a href="https://facebook.com">
+                <img src="/images/logo-facebook.png" alt="facebook"style="width:35px;height:35px;">
+              </a>
+              <a href="https://instagram.com">
+                <img src="/images/logo-instagram.png" alt="instagram"style="width:35px;height:35px;">
+              </a>
+              <a href="https://linkedin.com">
+                <img src="/images/logo-linkedin.png" alt="linkedin"style="width:35px;height:35px;">
+              </a>
+          </div>
 
+          </div>
 
-
+        <div class="col-sm-4 center" style="margin: 10px auto;">
+          Phone: 0822-1234-5678 <br> Email: focusentp@focus.com
+        </div>
+      </div>
     </footer>
   </body>
 

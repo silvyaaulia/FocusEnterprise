@@ -1,122 +1,147 @@
-* {box-sizing: border-box;}
-body {font-family: "Berlin Sans FB", sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: 20px auto auto auto;
-}
-
-/* Caption text */
-.text {
-  color: black;
-  font-size: 15px;
-  padding: 0px;
-  position: relative;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-.prev, .next{
-    cursor:pointer
-}
-
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 1s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
+/* ----On smaller screens, decrease text size----*/
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
 
+/*----customize font----*/
 @font-face {
 font-family: "Back to Black Demo";
 src: url("/fonts/Back to Black Demo.ttf");
 }
 
-/*
-h1 {
-font-family: 'Harabara Bold', Arial, sans-serif;
-font-weight:normal;
-font-style:normal;
+/*--------Header--------*/
+.headernav{
+  background-color: #b04b87;
 }
-*/
+.navbar-main{
+align-self: center;
+}
+#myNavbar{
+  align-items: center;
+  margin: 10px 0;
+}
+#headermenu{
+  color: #282728;
+  font-size: 12pt;
+}
+
+/*--------Footer--------*/
+.footer-container{
+  background-color:#f4b5d0;
+  align-self: center;
+}
+
+/*--------default for page--------*/
+.pagetitle-container{
+  background-image: url("/images/pic_judulhalaman.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  text-align:center;
+}
+.pagetitle{
+  font-family: 'Back to Black Demo', serif;
+  font-size: 30pt;
+  text-shadow: 0px 8px 4px 0px rgba(0,0,0,0.2);
+  margin: 60px auto 30px auto;
+}
+.title{
+  font-family: 'Berlin Sans FB', sans-serif;
+  font-size: 24pt;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 30px auto;
+}
+.space-outer{
+  padding: 50px 10%;
+}
+.space-updown{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.dateandtime{
+  margin-bottom: 10px;
+}
+.center{
+  text-align: center;
+}
+#font-blacktd{
+  font-family: 'Back to Black Demo', serif;
+  font-size: 40px;
+}
+ul, li{
+  list-style-type:none;
+  display: inline-block;
+  margin: auto;
+}
+.breadcrumb{
+  align-items: center;
+  margin-bottom: 60px;
+}
 
 
-/* Home About us */
-.home-aboutus{
+/*--------HOMEPAGE--------*/
+/*--------slider------*/
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: 20px auto;
+}
+.img-slider{
+  height: 700px;
+  width: 100%;
+}
+.slider-content{
+  display: inline-flex;
+}
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+/*--------aboutus------*/
+.aboutus{
   text-align: justify;
   font-family: 'Berlin Sans FB', sans-serif;
   font-size: 12pt;
-  background-color: rgb(244, 181, 208);
-  padding: 50px 180px 80px 180px;
+  background-color: #f4b5d0;
+  padding: 20px 10px 20px 10px;
+}
+.aboutus-container{
+  background-color: #f4b5d0;
+}
+.img-aboutus{
+  margin: 20px auto;
+  max-width: 80%;
+  align-items: center;
 }
 #judulhome{
   text-align: center;
   font-family: 'Back to Black Demo', serif;
   font-size: 30pt;
+  margin: 30px auto;
 }
-#image-floatleft {
-    float: left;
-    margin-right: 200px;
-}
-
-.home-ourservices{
+/*--------ourservices------*/
+.ourservices{
   text-align: justify;
   font-family: 'Berlin Sans FB', sans-serif;
   font-size: 12pt;
   background-color: white;
   padding: 50px 180px 80px 180px;
+  margin: auto;
+
+}
+.ourservices-container {
+  max-width: 800px;
+  position: relative;
+  margin: 20px auto;
+  padding: 20px auto;
 }
 
-.ourservices{
-  margin-left: 60px;
-  margin-right: auto;
-}
 
 #ourservices-btn{
   background-color: rgb(176, 75, 135);
@@ -130,110 +155,86 @@ font-style:normal;
   margin-right: 10px;
   text-align: center;
 }
-
 #ourservices-title{
   text-align: center;
   font-family: 'Back to Black Demo', serif;
   font-size: 20pt;
-
 }
-
 #ourservices-img {
     float: left;
     margin-left: 30px;
 }
 
-/*Contact Us*/
-.pagetitle-bg{
-    background-image: url("/images/pic_judulhalaman.jpg");
-    width: 100%;
-    height: 300px;
-    background-repeat: no-repeat;
-    color: white;
-    padding-top: 75px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-#pagetitle{
-  font-family: 'Back to Black Demo', serif;
-  font-size: 30pt;
+/*--------PACKAGE--------*/
+.package-title{
+  font-size: 20pt;
+  margin: 20px auto 20px auto;
   text-align: center;
 }
-
-#pagetitle-addr{
-  font-family: 'Berlin Sans FB', sans-serif;
-  font-size: 14pt;
-  text-align: center;
+.package-content{
+  padding: 10px 0x;
+  text-align: justify;
+  font-size: 12pt;
+  text-indent: 50px;
+  margin-bottom: 20px;
 }
-
-#contenttitle{
-  font-size:30pt;
-  padding:20px;
+.img-package{
+  margin: 20px auto;
+  max-width: 60%;
+  align-items: center;
 }
-
-.contactus, .paket{
-  font-family: 'Berlin Sans FB', sans-serif;
-  font-size:12;
-}
-
-ul{
-  list-style-type:none;
-  text-indent: 100px;
-  text-align: left;
-
-}
-
-/*maps*/
-.mapouter{
-  text-align:center;
-  margin: 50px auto;
-  height:500px;
-  width:1200px;
-  display: block;
-}
-
-.img-pcentre{
+.img-download{
   display: block;
   margin: 30px auto;
-  }
-
-.pcentre{
-  text-align: center;
-  display: block;
-  margin: 30px auto;
-  width: 60%;
 }
-
-/*tabel paket*/
-table {
-    border-collapse: collapse;
-    margin: 50px auto 50px auto;
-}
-
+/*----package table----*/
 table, td, th {
     border: 1px solid black;
 }
+.table-header{
+  background-color: #f4b5d0;
+  font-size: 13pt;
+}
 
+
+/*--------MEDIA HEADING--------*/
+.img-mediaheading{
+  display: block;
+  max-width: 60%;
+  height: auto;
+  margin: 30px auto;
+}
+.mediaheading-title{
+  font-size: 20pt;
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+.mediaheading-content{
+  margin: 10px auto 50px auto;
+  padding: 10px 100px;
+  text-align: justify;
+  font-size: 12pt;
+  text-indent: 50px;
+}
+
+/*--------POST--------*/
 .post{
-  padding: 30px 150px;
+  padding: 30px 50px;
   text-align: justify;
 }
-
-#allevents{
+.allevents{
   color: orange;
   text-decoration: none;
-  font-size: 20px;
-}
-
-#posttitle{
-  font-size:30pt;
+  font-size: 14px;
+  padding-bottom: 10px;
 }
 
 .detailpost{
   background-color: white;
-  padding: 30px 0;
+  margin-top: 20px;
+  padding: 0 10px;
+  margin: 5px;
 }
-
 #detailpost-btn{
   background-color: rgb(176, 75, 135);
   display: inline-block;
@@ -243,46 +244,76 @@ table, td, th {
   margin-bottom: 10px;
   margin-right: 10px;
 }
-
 #detailpost-btn:hover{
   background-color: rgb(244, 100, 208);
 }
-
 .detailpost-info{
-    background-color: rgb(244, 181, 208);
+  background-color: rgb(244, 181, 208);
   padding: 20px;
+  margin: 30px 5px 5px 5px;
+}
+.img-post{
+  margin: 20px auto;
+  max-width: 60%;
+  align-items: center;
 }
 
+/*--------EVENTS--------*/
 .events{
   padding: 40px 0;
 }
-
-.post-short{
-  padding: 0 200px;
+.shortpost{
+  margin: auto;
+  padding: 30px 0;
+  border-top: 1px solid #f4b5d0;
+}
+.shortpost-title{
+  font-size:18pt;
+  color: #191919;
+  text-decoration:none;
+}
+.shortpost-title:hover{
+  color: #b04b87
+  text-decoration:none;
+}
+.shortpost-content{
   text-align: justify;
 }
+.datebox{
+   border: 1px solid #f4b5d0;
+   padding: 5px;
+   background-color: #b04b87;
+   color: #e0e0e0;
+   width: 50px;
+   text-align: center;
+   line;
+ }
+ .img-event{
+   margin: auto;
+ }
+ #more{
+   color: orange;
+   display: inline;
+ }
 
-#posttitle-short{
-  font-size:20pt;
+/*--------CONTACT US--------*/
+.contactus-title{
+  font-size:30pt;
+  padding:0px;
+  margin: 50px auto;
+  text-align: center;
 }
 
-.img-postshort{
-  float: left;
-  margin: 10px ;
-  width: 30%;
+/*----map----*/
+.mapouter{
+  text-align:center;
+  height:500px;
+  width:100%;
+  margin: 30px auto;
 }
-
-.pjustify{
-  text-align: justify;
-  display: block;
-  margin: 10px auto;
-  padding-bottom: 30px;
-  border-bottom-style: solid;
-  border-color: rgb(225, 225, 225);
-  border-width: 1pt;
-}
-
-#more{
-  color: orange;
-  display: inline;
+.gmap_canvas{
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:100%;
 }
