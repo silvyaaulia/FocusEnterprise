@@ -1,35 +1,51 @@
 @extends('layouts\master')
 
+@section('title')
+Contact Us
+@endsection
+
 @section('pagetitle')
-<div class="pagetitle-bg">
-  <p id="pagetitle">Contact Us</p>
-  <p id="pagetitle-addr">home>>contact us</p>
+<div class="row pagetitle-container">
+<div class="col-sm-12">
+  <div class="pagetitle">Contact Us</div>
+  <div class="breadcrumb">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li class="active">Contact Us</li>
+        </ul>
+      </div>
+</div>
 </div>
 @endsection
 
 @section('content')
-<div class="contactus">
-  <p id='contenttitle' style= "text-align:center">Focus Entreprise</p>
-  <ul>
-  <li style="font-size:13pt">CV Focus Entreprise</li>
-  <br>
-  <li>Alamat:</li>
-  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-  <br>
-  <li>Phone:</li>
-  <li>0822-xxxx-xxxx</li>
-  <br>
-  <li>Email:</li>
-  <li>ini@email.com</li>
-  </ul>
-</div>
-
-<div class="mapouter">
-  <div class="gmap_canvas">
-    <iframe width="1200" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=itb%20bandung&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-    <ahref="https://www.embedgooglemap.net"></a>
+<div class="container space-outer">
+  <div class="row">
+    <div class="contactus-title">Focus Enterprise</div>
+    <!-- Contact us-->
+    <div class="col-sm-12">
+      <div style="font-size:14pt">CV Focus Entreprise</div>
+      <div>
+        <br>
+        Alamat:<br>
+        Jalan Lorem ipsum dolor sit amet, <br> Jawa Barat, Indonesia <br>
+        <br>
+        Phone:<br>
+        0822-1234-5678 <br>
+        <br>
+        Email:<br>
+        focusentp@focus.com <br>
+      </div>
+    </div>
+  </div>
+    <!-- Maps of Focus Entreprise-->
+    <div class="col-sm-12">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe width=100% height="500px" src="https://maps.google.com/maps?q=alun-alun%20bandung&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-
-
 @endsection

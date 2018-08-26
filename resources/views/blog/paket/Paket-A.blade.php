@@ -1,4 +1,4 @@
-@extends('layouts\masternew')
+@extends('layouts\master')
 
 @section('title')
 Paket
@@ -10,7 +10,7 @@ Paket
   <div class="pagetitle">Paket</div>
   <div class="breadcrumb">
         <ul>
-          <li><a href="/homenew">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li class="active">Paket</li>
         </ul>
       </div>
