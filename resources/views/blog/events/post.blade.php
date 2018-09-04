@@ -5,7 +5,7 @@ Post
 @endsection
 
 @section('content')
-<div class="container space-outer">
+<div class="container space-outer" id="font-berlin">
   <div class="row">
     <div class="col-sm-12">
       <a class="allevents ">All Events</a>
@@ -52,5 +52,6 @@ Post
       </p>
     </div>
   </div>
+
 </div>
 @endsection

@@ -5,21 +5,24 @@ Paket
 @endsection
 
 @section('pagetitle')
-<div class="row pagetitle-container">
-<div class="col-sm-12">
-  <div class="pagetitle">Paket</div>
-  <div class="breadcrumb">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li class="active">Paket</li>
-        </ul>
-      </div>
+<div class="container">
+  <div class="pagetitle-container">
+  <div class="col-sm-12">
+    <div class="pagetitle">Paket</div>
+    <div >
+          <ol class="breadcrumb">
+            <li><a id="breadcrumb" href="/">Home</a></li>
+            <li class="active">Paket</li>
+          </ol>
+        </div>
+  </div>
+  </div>
 </div>
-</div>
+
 @endsection
 
 @section('content')
-<div class="container space-outer">
+<div class="container space-outer" id="font-berlin">
   <div class="row package-title">Paket A</div>
   <div class="row">
     <img class="img-responsive img-package" src="/images/pic_dekorasi pernikahan.jpg" >

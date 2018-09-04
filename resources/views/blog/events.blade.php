@@ -12,7 +12,7 @@ Event
   </div>
 </div>
 
-<div class="container space">
+<div class="container space" id="font-berlin">
   <!-- Short Post Event ke-1-->
   <div class="shortpost">
     <div class="row">
@@ -73,5 +73,5 @@ Event
     </div>
   </div>
 
-
+</div>
 @endsection

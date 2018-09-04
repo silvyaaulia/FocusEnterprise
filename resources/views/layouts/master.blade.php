@@ -22,7 +22,7 @@
     <head>
 
     <body>
-    <div class="headernav">
+    <div class="headernav" id="font-berlin">
         <nav id="myNavbar" class="navbar navbar-default" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
           <div class="container">
@@ -66,7 +66,7 @@
                             </ul>
                   </div><!-- /.navbar-collapse -->
             </div>
-            </div>
+          </div>
         </nav>
 
     </div>
@@ -80,30 +80,31 @@
 
 
     <footer>
-      <div class="row footer-container">
-        <div class="col-sm-4 center" style="margin: 20px auto;">
-          <div class="subfooter"> &copy; Copyright 2018 Focus Enterprise</div>
-        </div>
-
-        <div class="col-sm-4 center"  style="margin: 15px auto;">
-          <div>
-            <a href="https://facebook.com">
-                <img src="/images/logo-facebook.png" alt="facebook"style="width:35px;height:35px;">
-              </a>
-              <a href="https://instagram.com">
-                <img src="/images/logo-instagram.png" alt="instagram"style="width:35px;height:35px;">
-              </a>
-              <a href="https://linkedin.com">
-                <img src="/images/logo-linkedin.png" alt="linkedin"style="width:35px;height:35px;">
-              </a>
+      <div class="footer-container" id="font-berlin">
+        <div class="container">
+          <div class="col-sm-4 " style="margin: 20px auto;">
+            <div class="subfooter"> &copy; Copyright 2018 Focus Enterprise</div>
           </div>
 
+          <div class="col-sm-4 center"  style="margin: 15px auto;">
+            <div>
+              <a href="https://facebook.com">
+                  <img src="/images/logo-facebook.png" alt="facebook"style="width:35px;height:35px;">
+                </a>
+                <a href="https://instagram.com">
+                  <img src="/images/logo-instagram.png" alt="instagram"style="width:35px;height:35px;">
+                </a>
+                <a href="https://linkedin.com">
+                  <img src="/images/logo-linkedin.png" alt="linkedin"style="width:35px;height:35px;">
+                </a>
+              </div>
+            </div>
+          <div class="col-sm-4" style="margin: 10px auto; text-align:right;">
+            Phone: 0822-1234-5678 <br> Email: focusentp@focus.com
           </div>
-
-        <div class="col-sm-4 center" style="margin: 10px auto;">
-          Phone: 0822-1234-5678 <br> Email: focusentp@focus.com
         </div>
       </div>
+
     </footer>
   </body>
 
