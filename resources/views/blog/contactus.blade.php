@@ -5,21 +5,23 @@ Contact Us
 @endsection
 
 @section('pagetitle')
-<div class="row pagetitle-container">
-<div class="col-sm-12">
-  <div class="pagetitle">Contact Us</div>
-  <div class="breadcrumb">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li class="active">Contact Us</li>
-        </ul>
-      </div>
-</div>
+<div class="container">
+  <div class="pagetitle-container">
+  <div class="col-sm-12">
+    <div class="pagetitle">Contact Us</div>
+    <div >
+          <ol class="breadcrumb">
+            <li><a id="breadcrumb" href="/">Home</a></li>
+            <li class="active">Contact Us</li>
+          </ol>
+        </div>
+  </div>
+  </div>
 </div>
 @endsection
 
 @section('content')
-<div class="container space-outer">
+<div class="container space-outer" id="font-berlin">
   <div class="row">
     <div class="contactus-title">Focus Enterprise</div>
     <!-- Contact us-->
@@ -46,6 +48,5 @@ Contact Us
         </div>
       </div>
     </div>
-  </div>
 </div>
 @endsection

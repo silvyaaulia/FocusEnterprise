@@ -5,21 +5,23 @@ Media Heading
 @endsection
 
 @section('pagetitle')
-<div class="row pagetitle-container">
-<div class="col-sm-12">
-  <div class="pagetitle">Media Heading</div>
-  <div class="breadcrumb">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li class="active">Media Heading</li>
-        </ul>
-      </div>
-</div>
+<div class="container">
+  <div class="pagetitle-container">
+  <div class="col-sm-12">
+    <div class="pagetitle">Media Heading</div>
+    <div >
+          <ol class="breadcrumb">
+            <li><a id="breadcrumb" href="/">Home</a></li>
+            <li class="active">Media Heading</li>
+          </ol>
+        </div>
+  </div>
+  </div>
 </div>
 @endsection
 
 @section('content')
-<div class="container">
+<div class="container" id="font-berlin">
   <div class="col-sm-12">
     <img class="img-mediaheading" src="/images/pic_dekorasi pernikahan.jpg"  alt="Chania">
     <div class="mediaheading-title">Dekorasi</div>
