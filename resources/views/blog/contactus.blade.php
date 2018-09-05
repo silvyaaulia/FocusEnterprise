@@ -20,6 +20,7 @@ Contact Us
 </div>
 @endsection
 
+
 @section('content')
 <div class="container space-outer" id="font-berlin">
   <div class="row">
@@ -39,14 +40,14 @@ Contact Us
         focusentp@focus.com <br>
       </div>
     </div>
-  </div>
     <!-- Maps of Focus Entreprise-->
     <div class="col-sm-12">
       <div class="mapouter">
         <div class="gmap_canvas">
-          <iframe width=100% height="500px" src="https://maps.google.com/maps?q=alun-alun%20bandung&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          <iframe width=100% height="500px" src="https://maps.google.com/maps?q=alun-alun%20bandung&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="5px" marginwidth="0"></iframe>
         </div>
       </div>
     </div>
+  </div>
 </div>
 @endsection
