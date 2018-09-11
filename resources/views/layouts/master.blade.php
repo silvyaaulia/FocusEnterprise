@@ -47,21 +47,21 @@
                             <ul class="dropdown-menu">
                                 <li><a href="/paket">Paket A</a></li>
                                 <li><a href="/paket">Paket B</a></li>
-                                <li><a href="/paket">Paket C </a></li>
+                                <li><a href="/paket">Paket C</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a id="headermenu" href="#" data-toggle="dropdown" class="dropdown-toggle">Paket 2</a>
                             <ul class="dropdown-menu">
                                 <li><a href="/paket">Paket AA</a></li>
-                                <li><a href="/paket">Paket BB </a></li>
-                                <li><a href="/paket">Paket CC </a></li>
+                                <li><a href="/paket">Paket BB</a></li>
+                                <li><a href="/paket">Paket CC</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a id="headermenu" href="#" data-toggle="dropdown" class="dropdown-toggle">About Us</a>
                             <ul class="dropdown-menu">
-                                <li><a href="/events">Events  </a></li>
+                                <li><a href="/events">Events</a></li>
                                 <li><a href="/contactus">Contact Us</a></li>
                             </ul>
                   </div><!-- /.navbar-collapse -->
@@ -82,7 +82,7 @@
     <footer>
       <div class="footer-container" id="font-berlin">
         <div class="container">
-          <div class="col-sm-4" style="margin: 20px auto;">
+          <div class="col-sm-4 " style="margin: 20px auto;">
             <div class="subfooter"> &copy; Copyright 2018 Focus Enterprise</div>
           </div>
 
@@ -99,7 +99,7 @@
                 </a>
               </div>
             </div>
-          <div class="col-sm-4 right" style="margin: 10px auto; text-align: right;">
+          <div class="col-sm-4" style="margin: 10px auto; text-align:right;">
             Phone: 0822-1234-5678 <br> Email: focusentp@focus.com
           </div>
         </div>
