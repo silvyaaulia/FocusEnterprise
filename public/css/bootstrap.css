@@ -3527,10 +3527,9 @@ tbody.collapse.in {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 40px;
+  min-width: 30px;
   padding: 0 0;
   margin: 2px auto;
-  color:  #b04b87;
   font-size: 14px;
   text-align: left;
   list-style: none;
@@ -3555,7 +3554,7 @@ tbody.collapse.in {
 }
 .dropdown-menu > li > a {
   display: block;
-  padding: 3px 20px;
+  padding: 3px 25px;
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
@@ -3564,8 +3563,9 @@ tbody.collapse.in {
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color:  #ad4182;
+  color: #262626;
   text-decoration: none;
+  background-color: #111111;
   display: block;
 }
 .dropdown-menu > .active > a,
